@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="containe-name">
+            <h1 class="name">portal susi</h1>
+        </div>
+        <div class="pontos">
+            <div>
+                <label for="pontos">local de saida:</label>
+                <select name="pontos">
+                    <option value="sesi">sesi</option>
+                    <option value="shopping">shopping</option>
+                    <option value="terminal">terminal benedito bentes</option>
+                    <option value="senai">senai poço</option>
+                </select>
+            </div>
+            <div>
+                <label for="pontos">local de chegada:</label>
+                <select id="ponto" name="pontos">
+                    <option value="sesi">sesi</option>
+                    <option value="shopping">shopping</option>
+                    <option value="terminal">terminal benedito bentes</option>
+                    <option value="senai">senai poço</option>
+                </select>
+            </div>
+        </div>
+        <button class="btn" onclick="onibus()">Possíveis ônibus</button>
+        <div class="maps"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
